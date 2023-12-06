@@ -1,0 +1,55 @@
+.wrapper {
+  background-image: url('../public/casino1920.jpg');
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+
+.menucontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: .05em;
+  user-select: none;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #d5de63;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdowncontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdowncontent a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: rgb(170, 167, 68);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
